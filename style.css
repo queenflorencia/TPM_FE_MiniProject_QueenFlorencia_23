@@ -112,8 +112,12 @@ body {
 }
 
 .copy {
+  position: absolute;
   font-size: 11px;
   margin-top: 3px;
   color: #616161;
   text-align: center;
+  bottom: 45px;
+  left: 50%;
+  transform: translateX(-50%);
 }
